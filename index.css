@@ -1,14 +1,26 @@
 @font-face {
   font-family: "DINRoundPro";
-  src: url("../fonts/DINRoundPro.woff2") format("woff2"), url("../fonts/DINRoundPro.woff") format("woff");
+  src: url("DINRoundPro.woff2") format("woff2"), url("DINRoundPro.woff") format("woff");
 }
 @font-face {
   font-family: "DINRoundPro-Black";
-  src: url("../fonts/DINRoundPro-Black.woff2") format("woff2"), url("../fonts/DINRoundPro-Black.woff") format("woff");
+  src: url("DINRoundPro-Black.woff2") format("woff2"), url("DINRoundPro-Black.woff") format("woff");
 }
 @font-face {
   font-family: "DINRoundPro-Bold";
-  src: url("../fonts/DINRoundPro-Bold.woff2") format("woff2"), url("../fonts/DINRoundPro-Bold.woff") format("woff");
+  src: url("DINRoundPro-Bold.woff2") format("woff2"), url("DINRoundPro-Bold.woff") format("woff");
+}
+@font-face {
+  font-family: "DINRoundPro";
+  src: url("DINRoundPro.woff2") format("woff2"), url("DINRoundPro.woff") format("woff");
+}
+@font-face {
+  font-family: "DINRoundPro-Black";
+  src: url("DINRoundPro-Black.woff2") format("woff2"), url("DINRoundPro-Black.woff") format("woff");
+}
+@font-face {
+  font-family: "DINRoundPro-Bold";
+  src: url("DINRoundPro-Bold.woff2") format("woff2"), url("DINRoundPro-Bold.woff") format("woff");
 }
 * {
   margin: 0;
@@ -95,7 +107,7 @@
     order: 3;
   }
 }
-@media (min-width: 710px) and (max-width: 1285px) {
+@media (min-width: 710px) and (max-width: 1280px) {
   .list__left {
     margin-right: 50px;
   }
@@ -651,13 +663,20 @@
   font-weight: 400;
 }
 
+.info-item {
+  margin-top: 30px;
+  position: relative;
+  order: -1;
+  width: 100%;
+}
+
 .medical-item {
   margin-top: 30px;
   position: relative;
   order: -1;
   width: 100%;
 }
-@media screen and (min-width: 1285px) {
+@media screen and (min-width: 1280px) {
   .medical-item {
     width: auto;
     order: 2;
@@ -685,7 +704,7 @@
   position: relative;
 }
 .medical-item__img {
-  width: 50%;
+  width: 280px;
 }
 .medical-item__top-label {
   position: absolute;
