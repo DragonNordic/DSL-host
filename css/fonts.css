@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "DINRoundPro";
+  src: url("../fonts/DINRoundPro.woff2") format("woff2"), url("../fonts/DINRoundPro.woff") format("woff");
+}
+@font-face {
+  font-family: "DINRoundPro-Black";
+  src: url("../fonts/DINRoundPro-Black.woff2") format("woff2"), url("../fonts/DINRoundPro-Black.woff") format("woff");
+}
+@font-face {
+  font-family: "DINRoundPro-Bold";
+  src: url("../fonts/DINRoundPro-Bold.woff2") format("woff2"), url("../fonts/DINRoundPro-Bold.woff") format("woff");
+}
+/*# sourceMappingURL=fonts.css.map */
